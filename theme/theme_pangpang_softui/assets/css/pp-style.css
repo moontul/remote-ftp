@@ -1,0 +1,101 @@
+/* 높이가 100%인 메인페이지 */
+.sound_only {
+  display:none;
+}
+.pp-wrap {
+  padding-top:0;
+  min-height:calc(100vh - 270px);
+  background:;
+  padding-left:1px;
+  padding-right:1px;
+}
+.pp-main {
+  padding-top:0;
+  min-height:calc(100vh - 270px);
+  background:;
+  padding-left:0px;
+  padding-right:0px;
+}
+.pp-row {
+  min-height:calc(100vh - 270px);
+  background:;
+  padding-left:0px;
+  padding-right:0px;
+}
+.pp-sidebar {
+  padding-top: 30px;
+  border-right:1px solid #e9e9e9;
+}
+/***000px 이하일때 ***/
+@media (max-width: 1024px) {
+  .logotxt {display:none;}
+  .qsearch {max-width:50px;}
+  .nav-item a{letter-spacing:-1px;font-size:10px;}
+  .nav-itemone {height:35px;overflow:hidden;}
+}
+/***000px 이하일때 ***/
+@media (max-width: 768px) {
+  .logotxt {display:inline-block;}
+}
+
+.navbar-pp.navbar-toggler-bar {
+  background:#fcfcfc !important;
+}
+
+
+
+.pp-mainpage {
+  padding-top: 30px;
+  background:;
+  color:#030303;
+  padding-bottom: 50px;
+}
+
+.pp-sidebardiv {
+  font-size:16px;
+  background-color:;
+  height:38px;
+  overflow: hidden;
+  padding-top:5px;
+  padding-bottom:5px;
+  overflow:hidden;
+  border-radius : 8px;
+}
+.pp-sidebardiv:hover:not(.nohover) {
+  background-color: #e9ecef;
+}
+
+/*관리자 버튼들 위치*/
+.pp-adm-btns {
+  z-index:500;
+   position: fixed;
+   top: 60px;
+   right: 30px;
+   background:;
+}
+
+.form-control {
+  font-size:16px !important;
+  color:#090909 !important;
+}
+
+.pptable>tbody>tr>td {margin:0;padding:0 !important}
+.pptable>tbody>tr>td a {margin:0 !important}
+.pptable>tbody>tr>td .underline {border:0;border-bottom:1px solid #ccc;}
+
+.cardheader {
+  color:#020202;
+}
+.cardleft {
+  color:#060606;
+}
+.cardright {
+  color:#060606;
+}
+
+.bg-dark .cardheader {
+  color:#fcfcfc;
+}
+.bg-dark .cardleft {
+  color:#cfcfcf;
+}

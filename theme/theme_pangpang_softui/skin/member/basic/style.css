@@ -1,0 +1,11 @@
+/* 비밀번호를 나눔스퀘어 폰트가 없기에 다른 폰트로 변경 */
+input[type=password] {font-family:'Malgun gothic', dotum, sans-serif;}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'NanumSquare', sans-serif; color: #888 opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #888;
+}
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #888;
+}

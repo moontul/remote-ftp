@@ -1,0 +1,57 @@
+.playerControlBar{
+	width:320px;
+	height:20px;
+	background:#d2d2d2;
+}
+.playerBtnDiv{
+	width:20px;
+	float:left;
+}
+.playerLoadingDiv{
+	width:278px;
+	height:20px;
+	float:left;
+}
+.playBtn{
+	width:20px !important;
+	height:20px !important;
+	background: url("../images/btn_play.gif") no-repeat center center #d2d2d2 !important;
+	border:0 !important;
+	float:left;
+}
+.pauseBtn{
+	width:20px !important;
+	height:20px !important;
+	background: url("../images/btn_pause.gif") no-repeat center center #d2d2d2 !important;
+	border:0 !important;
+	float:left;
+}
+.fullscreen{
+	width:20px !important;
+	height:20px !important;
+	background: url("../images/btn_fullScr.gif") no-repeat center center #d2d2d2 !important;
+	border:0 !important;
+	float:left;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+	 border-bottom-right-radius: 0;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+	 border-bottom-left-radius: 0;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+	 border-top-right-radius: 0;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+	 border-top-left-radius: 0;
+}
+.ui-widget-header {
+	 border: 0;
+	 background: #d2d2d2;
+}
+.ui-widget-content {
+	 border: 0;
+}
+.ui-progressbar .ui-progressbar-value {
+	 margin: 0;
+}

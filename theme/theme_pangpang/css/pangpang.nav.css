@@ -1,0 +1,111 @@
+/*
+xl :  Extra large >= 1200 : 1140
+lg :  Large       >=  992 : 960
+md :  Medium      >= 768 : 720
+sm :  Small None  >= 576 : 540
+None : (auto)
+*/
+a.nav-link {letter-spacing:-1px; color:#030303 !important;text-decoration:none;font-family:'NanumSquare';}
+a.nav-link:hover {letter-spacing:-1px; color:#000011;text-decoration:none;font-family:'NanumSquare';}
+
+/* desktop */
+@media (min-width: 1200px) {
+	nav.navbar > div.container {width:1140px;}
+	.container {width:1140px;}
+}
+
+@media (max-width: 1000px) {
+	/*body {background:hotpink;}*/
+	.brandspan {display:none;}
+	.nav-item>a {font-size:15px;}
+	.headersearch {width:50px;}
+}
+
+@media (max-width: 768px) {
+	.pp-sidecontent {margin-left:0 !important;}
+	.brandspan {display:inline;}
+}
+
+.qchk_num {cursor:pointer;}
+
+.navbar-toggler {
+    background-color: #454545;
+}
+
+.navbar {background:#fff;}
+.navbar {border-bottom:1px solid #ff00ff; !important;}
+.gap {height:57px;}
+/*pangpang sidebar 관련 */
+.pp-sidebar {
+    min-width: 240px;
+    max-width: 240px;
+		left: -240px;
+    /*min-height: 100vh;*/
+		/*background:rgba(255,0,255,0.3);*/
+    font-family: "NanumSquare";
+    font-size:14px;
+    border-right:1px solid darkgray;
+    display: block;
+    overflow-y: auto;
+    position:fixed;
+
+		z-index:1000;
+		background:#fcfcfc;
+
+}
+.pp-sidebardiv{
+  height:30px;
+  padding-top:8px;
+  padding-bottom:8px;
+	padding-left:8px;
+  overflow:hidden;
+  background:;
+}
+.pp-sidebardiv.header{
+  font-weight:700;
+}
+
+.pp-sidebardiv.hit {
+	background-color:#eeeeee;
+}
+.pp-sidebar.active {
+    margin-left: -250px;
+}
+
+.pp-sidecontent {
+	margin-left:250px;
+	padding : 30px;
+}
+.pp-sidecontent .contenttitle {
+	font-size:24px;
+	color:#000;
+	letter-spacing:-1px;
+	font-weight:300;
+	height:32px;
+	overflow:hidden;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.pp-footer {
+  height:150px;
+	background:#666;
+}
+footer > div{font-size:12px; color:#fff; margin:0 auto;
+		text-align:center;padding-top:10px;padding-bottom:10px;}

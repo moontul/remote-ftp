@@ -1,0 +1,30 @@
+/*********************************************************
+//
+// itp_testviewer_login
+//
+**********************************************************/
+[ctrl=itp_testviewer_login] {
+
+}
+
+[ctrl=itp_testviewer_login] [button=sheet-mode] {
+
+}
+
+[ctrl=itp_testviewer_login] [button=sheet-mode].selected {
+	color:red;
+}
+
+
+/*********************************************************
+//
+// itp_testviewer_result_select
+//
+**********************************************************/
+[ctrl=itp_testviewer_result_select] .option {
+	margin-right:5px;
+}
+
+[ctrl=itp_testviewer_result_select] .option.selected {
+	background:red;
+}
